@@ -149,8 +149,8 @@ export default function App() {
                 {tFooter.oran}
               </span>
               <span className="text-sm font-light">Place d'Armes, Centre Ville, Oran</span>
-              <a href="tel:+213550123456" className="text-sm opacity-60 italic hover:text-brand-accent transition-colors">
-                +213 550 123 456
+              <a href="tel:+213550123456" className="text-sm opacity-60 italic hover:text-brand-accent transition-colors inline-block w-fit">
+                <bdi dir="ltr" className="[direction:ltr] inline-block">+213 550 123 456</bdi>
               </a>
             </div>
 
@@ -159,8 +159,8 @@ export default function App() {
                 {tFooter.sba}
               </span>
               <span className="text-sm font-light">Boulevard de la République, SBA</span>
-              <a href="tel:+213550987654" className="text-sm opacity-60 italic hover:text-brand-accent transition-colors">
-                +213 550 987 654
+              <a href="tel:+213550987654" className="text-sm opacity-60 italic hover:text-brand-accent transition-colors inline-block w-fit">
+                <bdi dir="ltr" className="[direction:ltr] inline-block">+213 550 987 654</bdi>
               </a>
             </div>
             

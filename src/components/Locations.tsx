@@ -44,7 +44,8 @@ const Locations = () => {
                    </p>
                    <div className="flex flex-wrap items-center gap-6 font-sans text-[10px] uppercase tracking-[0.2em] font-bold opacity-80">
                      <a href="tel:+213550123456" className="flex items-center gap-2 hover:text-brand-accent transition-colors">
-                       <Phone size={12} className="text-brand-accent" /> +213 550 123 456
+                       <Phone size={12} className="text-brand-accent shrink-0" />
+                       <bdi dir="ltr" className="[direction:ltr] inline-block">+213 550 123 456</bdi>
                      </a>
                      <span className="flex items-center gap-2">
                        <Clock size={12} className="text-brand-accent" /> {t.hoursOran}
@@ -67,7 +68,8 @@ const Locations = () => {
                    </p>
                    <div className="flex flex-wrap items-center gap-6 font-sans text-[10px] uppercase tracking-[0.2em] font-bold opacity-80">
                      <a href="tel:+213550987654" className="flex items-center gap-2 hover:text-brand-accent transition-colors">
-                       <Phone size={12} className="text-brand-accent" /> +213 550 987 654
+                       <Phone size={12} className="text-brand-accent shrink-0" />
+                       <bdi dir="ltr" className="[direction:ltr] inline-block">+213 550 987 654</bdi>
                      </a>
                      <span className="flex items-center gap-2">
                        <Clock size={12} className="text-brand-accent" /> {t.hoursSba}
