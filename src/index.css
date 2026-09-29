@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", "Amiri", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Inter", "Cairo", ui-sans-serif, system-ui, sans-serif;
+  --font-arabic: "Cairo", "Amiri", system-ui, sans-serif;
+  --color-brand-bg: #28180D;
+  --color-brand-text: #F4F1EE;
+  --color-brand-accent: #C5A059;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  [dir="rtl"] {
+    font-family: var(--font-arabic);
+  }
+
+  [dir="rtl"] h1,
+  [dir="rtl"] h2,
+  [dir="rtl"] h3 {
+    font-family: "Cairo", var(--font-serif);
+    font-style: normal !important;
+  }
+
+  body {
+    @apply bg-brand-bg text-brand-text font-serif antialiased selection:bg-brand-accent selection:text-brand-bg;
+  }
+}
