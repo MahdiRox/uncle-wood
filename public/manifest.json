@@ -1,0 +1,27 @@
+{
+  "name": "Unclewood Restaurant",
+  "short_name": "Unclewood",
+  "description": "Authentic wood-grill dining experience in Oran and Sidi Bel Abbes.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D0B0A",
+  "theme_color": "#C5A059",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/uncle_wood.jpg",
+      "sizes": "653x653",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
